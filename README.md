@@ -23,15 +23,19 @@ __Requirements for Project__
 ## Results
 My analysis determined the best resource to scrape and report on the required information for the NCAA National Football Championship.  After scraping the information from the resource, I loaded the data into a MongoDB database.  The data was loaded into a collection that will maintain a list of dictionaries going forward.
 
+The below illustrates a scraping of data that was loaded into MongoDB for test purposes.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
+
 ![WDS Sport Report](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mars_factsheet_table.PNG)
 
-Successfully stored mars hemisphere data in MongoDB and visualized using Flask.  This image was updated using Bootstrap.
+The below illustrates a "PreGame" scraping of data that was loaded into MongoDB in preparation for the NCAA Football Championship game.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
+
 ![Mars Hemispheres](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mars_hemisphere_Images.PNG)
+
+Once the scraping and load completed, the data was visualized via a Flask application utilizing JavaScript and BootStrap.  An interested user will just click the "Game Update" button to get the most up-to-date information related to this championship game.
 
 
 ## Summary
-Although scrapting data can get a bit complex, the results were very benefical to the analyst I assisted. With web scraping and Mongo in my arsenal, I can can easily work with structed/unstructed data using most database environments in the cloud or on-prem.  
-
+After I started working, it became evident that Flask is extremely powerfull and actually actually has a data file structure where specific files must be placed.  Mostly notibly are the "index.html" which should be located in the /templates directory and any website images should be located in the /static directory.  
 
 ![](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mission-to-Mars_title.PNG)
 
