@@ -23,7 +23,7 @@ __Requirements for Project__
 ## Results
 My analysis determined the best resource to scrape and report on the required information for the NCAA National Football Championship.  After scraping the information from the resource, I loaded the data into a MongoDB database.  The data was loaded into a collection that will maintain a list of dictionaries going forward.
 
-The below illustrates a scraping of data that was loaded into MongoDB for test purposes.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
+The below illustrates a scraping of data that was loaded into MongoDB for test purposes.  You can clearly see the "awayteam_score" and "hometeam_score" includes data of "21" and "38".  As I mentioned, this was for test purposed only.  This was __not__ the "Championship" game.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
 
 ![WDS Test run](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/MongoDB_Testing.PNG)
 
