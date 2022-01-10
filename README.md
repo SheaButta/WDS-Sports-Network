@@ -25,20 +25,18 @@ My analysis determined the best resource to scrape and report on the required in
 
 The below illustrates a scraping of data that was loaded into MongoDB for test purposes.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
 
-![WDS Sport Report](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mars_factsheet_table.PNG)
+![WDS Test run](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/MongoDB_Testing.PNG)
 
 The below illustrates a "PreGame" scraping of data that was loaded into MongoDB in preparation for the NCAA Football Championship game.  Each scrape spent the least amount of time in a site and closed the browser accordingly.
 
-![Mars Hemispheres](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mars_hemisphere_Images.PNG)
+![WDS PreGame](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/MongoDB_PreGame.PNG)
 
 Once the scraping and load completed, the data was visualized via a Flask application utilizing JavaScript and BootStrap.  An interested user will just click the "Game Update" button to get the most up-to-date information related to this championship game.
 
+![WDS Sports Network](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/WDS_Sports_Network.PNG)
 
 ## Summary
 After I started working, it became evident that Flask is extremely powerfull and actually actually has a data file structure where specific files must be placed.  Mostly notibly are the "index.html" which should be located in the /templates directory and any website images should be located in the /static directory.  
-
-![](https://github.com/SheaButta/Mission-to-Mars/blob/main/images/Mission-to-Mars_title.PNG)
-
  
 
 
