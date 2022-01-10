@@ -33,10 +33,18 @@ The below illustrates a "PreGame" scraping of data that was loaded into MongoDB 
 
 Once the scraping and load completed, the data was visualized via a Flask application utilizing JavaScript and BootStrap.  An interested user will just click the "Game Update" button to get the most up-to-date information related to this championship game.
 
-![WDS Sports Network](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/WDS_Sports_Network.PNG)
+![WDS Sports Network](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/WDS_Sports_Network_test.PNG)
 
 ## Summary
-After I started working, it became evident that Flask is extremely powerfull and actually actually has a data file structure where specific files must be placed.  Mostly notibly are the "index.html" which should be located in the /templates directory and any website images should be located in the /static directory.  
+After I started working, it became evident that Flask is extremely powerfull and actually actually has a data file structure where specific files must be placed.  Mostly notibly are the "index.html" which should be located in the /templates directory and any website images should be located in the /static directory. 
+
+Let the show begin, because I'm completely for "PreGame" and to report via this automated process.
+
+![WDS Sports Network PreGame](https://github.com/SheaButta/WDS-Sports-Network/blob/main/images/WDS_Sports_Network.PNG)
+
+
+
+
  
 
 
