@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDS Sports</title>
+    <link 
+        rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Add Jumbotron to Header -->
+        <div class="text-center" >
+            <div class="row">
+              <img src="{{ url_for('static', filename ='screenshot.PNG')}}" class="img-responsive" />
+            </div>
+        </div>
+        <!-- Add Team data -->
+        <div class="container" id="mars-news">
+              <div class="media-body text-center">
+                  <table class="tablecenterheadCSS table">
+                    <caption class="text-center" style="font-size: larger; font-weight: bolder;">College Football Championship</caption>
+
+                    <tr class="text-center">
+                      <th class="text-center">Away Team</th>
+                      <!-- Add a button to activate scraping script -->
+                      <th class="text-center"> <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Game Update</a></p> </th>
+                      <th class="text-center">Home Team</th>
+                    </tr>
+                    <tr class="text-center">
+                      <td><img src="{{ wds.wds_ncaafb.awayteam_logo_img }}" display: block; max-width: 50%; height: auto; />  
+                        {{ wds.wds_ncaafb.awayteam }}: {{wds.wds_ncaafb.awayteam_score }} 
+                      </td>
+                      <td></td>
+                      <td><img src="{{ wds.wds_ncaafb.hometeam_logo_img }}" display: block; max-width: 50%; height: auto; />  
+                        {{ wds.wds_ncaafb.hometeam }}: {{wds.wds_ncaafb.hometeam_score }} 
+                      </td>
+                    </tr>
+                  </table>
+                  <h2 style="text-align: left; font-size: small; font-weight:normal; ">LastUpdate: {{ wds.wds_last_modified }}</h2>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
