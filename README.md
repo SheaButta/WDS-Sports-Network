@@ -1,7 +1,5 @@
 # WDS-Sports-Network
 
-# WDS Sports Network
-
 ## Overview of Project
 
 ### Purpose
